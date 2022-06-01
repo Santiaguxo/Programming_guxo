@@ -1,7 +1,7 @@
 #Print
 println("¡Hola, mundo!")
 
-#Operadores Aritmeticos simples
+#Operadores Aritmeticos Simplificado
 40 + 2
 43 - 1
 6 * 7
