@@ -1,13 +1,8 @@
-print("Hello, World!")
-var = 1
+# create a variable that sums 2 random numbers
+import random  # import random module
+random_int_1 = random.randint(1, 10)
+print(random_int_1)
+random_int_2 = random.randint(1, 10)
+print(random_int_2)
+var = random_int_1 + random_int_2
 print(var)
-# create a function that count number between 1 and 100
-
-
-def count_number():
-    for i in range(1, 101):
-        print(i)
-
-
-# En Python la funcion aca cuando ya no se sigue el nivel de indentacion
-var = count_number()
