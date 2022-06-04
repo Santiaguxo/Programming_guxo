@@ -8,4 +8,4 @@ var = random_int_1 + random_int_2
 print(var)
 
 
-# Test for github para probar de manera mutua
+# Test sincronizar de github a local
