@@ -9,5 +9,3 @@ print(var)
 
 
 # Test sincronizar de github a local 1
-a
-asdads
