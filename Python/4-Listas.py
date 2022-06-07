@@ -3,6 +3,8 @@ list_vehicles = ["bmw", "mercedes", "audi", "toyota"]
 list_numbers = [1, 2, 3, 4, 5, 5, 5, 6, 7, 8, 9, 10]
 print(list_vehicles)
 print()
+#Encontrar la longitud de la lista
+print(len(list_vehicles))
 
 # Acceder elementos de una lista
 print(list_vehicles[0])
