@@ -31,7 +31,8 @@ list_vehicles.insert(0, "Nissan")
 print(list_vehicles)
 print()
 
-# Remover elementos de una lista (Solo elimina la primera)
+# Eliminar Remover Pop
+# Remover elementos de una lista (Solo elimina la primera) puede ser numero o string
 list_numbers.remove(5)
 print(list_numbers)
 print()
@@ -40,3 +41,5 @@ del list_numbers[0]
 print(list_numbers)
 # Eliminar mediante pop
 print(list_numbers.pop(0))
+
+# Organizacion de listas
