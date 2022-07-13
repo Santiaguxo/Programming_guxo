@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="GET">
+        Nombre: <input type="text" name="Nombre"><br>
+        Apellido: <input type="text" name="Apellido"><br>
+        Email: <input type="email" name="email" required><br>
+        Password : <input type="password" name="password" minlength="7"><br>
+        Cumple: <input type="date" name="Cumple"><br>
+        Genero: <br>
+        <input type="radio" name="Gender" value="Masculino">Masculino<br>
+        <input type="radio" name="Gender" value="Femenino">Femenino<br>
+        <input type="radio" name="Gender" value="Otros">Otro<br>
+        Mascostas : <br>
+        <input type="checkbox" name="Cat">Gatos<br>
+        <input type="checkbox" name="Perro">Perros<br>
+        Cars: <br>
+        <select name="cars">
+            <option value="Volvo" name="Volvo">Volvo</option>
+            <option value="Audi" name="Audi">Audi</option>
+        </select><br>
+        <input type="submit" value="Registro">
+        <input type="reset" value="Reestablecer">
+    </form>
+    <!-- ?
+        Nombre=Santiago&
+        Apellido=Valdez&
+        email=santiago.valdez.inf%40gmail.com
+        &password=asdsadsadasd&
+        Cumple=2022-05-30&
+        Gender=on&
+        Cat=on
+     -->
+    <!-- Importante si no se le da el Valor de Value a los input types 
+        que no se ingresan mediante teclado simplemente va a devolver 
+        On or OFF 
+    -->
+    <!-- 
+            Nombre=Santiago
+            &Apellido=Valdez
+            &email=santivaldez96%40gmail.com
+            &password=44646556466
+            &Cumple=2022-01-05
+            &Gender=Femenino
+            &Perro=on
+            &cars=Audi 
+    -->
+</body>
+
+</html>
