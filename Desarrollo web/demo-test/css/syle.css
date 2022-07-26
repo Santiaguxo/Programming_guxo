@@ -1,0 +1,36 @@
+* {
+  text-align: right;
+}
+body {
+  background-image: url(img/maxim-berg-LxYhIYbH2mE-unsplash.jpg);
+  background-size: cover;
+}
+h2,
+p {
+  color: #aa4139;
+  text-align: center;
+  border: 5px solid rgba(219, 110, 102, 0.5);
+  cursor: pointer;
+}
+p {
+  color: pink;
+}
+p {
+  color: green;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+.webtext:first-child {
+  border: 5px dashed green;
+}
+.active {
+  color: red;
+}
+#div1 {
+  background: rgba(0, 0, 255, 0.2);
+}
+#div2 {
+  background: rgba(255, 0, 0, 0.2);
+}
