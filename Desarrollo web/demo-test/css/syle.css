@@ -11,12 +11,18 @@ p {
   text-align: center;
   border: 5px solid rgba(219, 110, 102, 0.5);
   cursor: pointer;
+  line-height: 15px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
 }
-p {
-  color: pink;
-}
+
 p {
   color: green;
+  /* text-decoration: underline;*/
+  text-transform: uppercase;
+  line-height: 20px;
 }
 li {
   list-style: none;
